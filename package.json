@@ -1,0 +1,32 @@
+{
+  "name": "didactic-barnacle",
+  "version": "1.0.0",
+  "description": "Same Node.js backend",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index",
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sagar20896/didactic-barnacle.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sagar20896/didactic-barnacle/issues"
+  },
+  "homepage": "https://github.com/sagar20896/didactic-barnacle#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "joi": "^17.4.0",
+    "json8-patch": "^1.0.4",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
